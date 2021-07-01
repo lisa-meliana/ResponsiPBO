@@ -6,7 +6,8 @@
 package responsi.pbo;
 
 import modeldatabase.Connector;
-import view.ViewMovie;
+import view.ViewMovie1;
+
 
 /**
  *
@@ -20,8 +21,8 @@ public class ResponsiPBO {
     public static void main(String[] args) {
         // TODO code application logic here
         Connector DB = new Connector();
-        ViewMovie viewmovie = new ViewMovie(DB);
-        viewmovie.setVisible(true);
+        ViewMovie1 viewmovie1 = new ViewMovie1(DB);
+        viewmovie1.setVisible(true);
     }
     
 }
